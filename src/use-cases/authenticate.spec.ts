@@ -24,8 +24,6 @@ describe("Authenticate Use Case", () => {
       password: "123456",
     });
 
-    console.log(user);
-
     expect(user.id).toEqual(expect.any(String));
   });
 
